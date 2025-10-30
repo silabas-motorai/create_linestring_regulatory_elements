@@ -1,5 +1,5 @@
 # create_linestring_regulatory_elements
-This QGIS Python script generates linestrings for the regulatory element features (traffic signs and traffic lights) based on feature map geometries provided as **LineString** or **MultiLineString** inputs.
+This QGIS Python script generates linestrings for the regulatory element features (traffic signs and traffic lights) based on the corresponding feature map geometries provided as **LineString** or **MultiLineString** inputs.
 
 ## Features
 - Processes only features where `area_type` is `"traffic_sign"` or `"traffic_light"`.
